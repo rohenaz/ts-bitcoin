@@ -68,7 +68,7 @@ Constants.Mainnet = {
         versionByteNum: 0x80,
     },
     TxBuilder: {
-        dust: 546, // number of satoshis that an output can't be less than
+        dust: 1, // number of satoshis that an output can't be less than
         feePerKbNum: 0.000005e8,
     },
     Workers: {
@@ -186,3 +186,4 @@ const getConstants = (magicNum) => {
 }
 
 export { Constants, getConstants }
+
